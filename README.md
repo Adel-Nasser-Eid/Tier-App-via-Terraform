@@ -1,5 +1,6 @@
 # Tier-App-via-Terraform
 A tier app via terraform to store the state file of terraform on a s3 bucket and lock it by dynamodb
+![image](https://github.com/Adel-Nasser-Eid/Tier-App-via-Terraform/assets/135515358/6d6f3846-64cd-40e4-959d-ac82c018b411)
 
 the project conects to an AWS account with cridentials and does the next.
 - creates a VPC (192.168.0.0/16).
