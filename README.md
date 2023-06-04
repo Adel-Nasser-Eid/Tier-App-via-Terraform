@@ -12,3 +12,9 @@ the project conects to an AWS account with cridentials and does the next.
 - creates an ec2 instance named "App" inside the public subnet.
 - creates an ec2 instance named "DB" inside the private subnet.
 - stores the state file of terraform "terraform.tfstate" in the pre-made s3 bucket, and lock it by the pre-made dynamoDB table.
+
+use these commands to start the project
+- terraform init
+- terraform apply
+and you can stop the project with this command
+- terraform destroy
